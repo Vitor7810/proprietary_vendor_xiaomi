@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 service vendor.bluetooth-1-0-qti /vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+=======
+service bluetooth-1-0 /vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+>>>>>>> 0b61af2... msm8953-common: Use QTI bluetooth stack
     class hal
     user bluetooth
     group bluetooth system wakelock oem_2901
