@@ -1,14 +1,20 @@
 on property:init.svc.mediadrm=running
     mkdir /data/vendor/mediadrm 0770 media mediadrm
     start vendor.move_data_sh
+<<<<<<< HEAD
 
+=======
+>>>>>>> c3b9b85... Update Widevine blobs from PPR1.180610.091
 service vendor.move_data_sh /system/bin/move_widevine_data.sh
     class late_start
     user media
     group media mediadrm system
     disabled
     oneshot
+<<<<<<< HEAD
 
+=======
+>>>>>>> c3b9b85... Update Widevine blobs from PPR1.180610.091
 service vendor.drm-widevine-hal-1-1 /vendor/bin/hw/android.hardware.drm@1.1-service.widevine
     class hal
     user media
